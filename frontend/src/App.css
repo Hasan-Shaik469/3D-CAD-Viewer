@@ -1,0 +1,185 @@
+/* Global styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Heading */
+h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* Upload section */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* File input */
+input[type="file"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* View files button */
+.view-btn {
+  margin-top: 10px;
+}
+
+/* File list */
+.file-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.file-list li {
+  margin: 10px 0;
+}
+
+/* File selection buttons */
+.file-btn {
+  background-color: rgb(14, 183, 14);
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.file-btn:hover {
+  background-color: #218838;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+
+.delete-btn {
+  background: rgb(248, 246, 246);
+  color: rgb(12, 12, 12);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: rgb(224, 65, 65);
+}
+
+/* Viewer section */
+.viewer-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.viewer-container h2 {
+  color: #333;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Toast notifications */
+.Toastify__toast-container {
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+.full-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  display: flex; /* Change from 'none' to 'flex' dynamically */
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+.back-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #4d9dff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  z-index: 1000;
+}
+
+.back-btn:hover {
+  background: #3268fc;
+}
+
