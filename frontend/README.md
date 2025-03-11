@@ -1,11 +1,17 @@
 A web application to upload, view, and manage 3D CAD models in .stl and .obj formats.
 
 🚀 Features
+
 Upload and store 3D model files
+
 View .stl and .obj files in a 3D viewer
+
 Delete uploaded files
+
 Interactive controls (zoom, pan, rotate)
+
 📌 Prerequisites
+
 Ensure you have the following installed:
 
 Node.js (for frontend)
