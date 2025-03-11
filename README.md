@@ -46,9 +46,9 @@ Edit
 
 cd backend  # Navigate to backend folder
 
-pip install -r requirements.txt  # Install dependencies
+pip install -r requirements.txt      # Install dependencies
 
-python app.py  # Run the Flask server
+python app.py      # Run the Flask server
 
 Backend will run on http://localhost:5000/.
 
@@ -61,11 +61,11 @@ Copy
 
 Edit
 
-cd frontend  # Navigate to frontend folder
+cd frontend      # Navigate to frontend folder
 
-npm install  # Install dependencies
+npm install      # Install dependencies
 
-npm start  # Run the React app
+npm start      # Run the React app
 
 Frontend will be available at http://localhost:3000/.
 
@@ -80,23 +80,23 @@ Edit
 
 3D-CAD-Viewer/
 
-│── backend/            # Flask backend
+│── backend/              # Flask backend
 
-│     ├── uploads/        # Uploaded 3D models
+│     ├── uploads/          # Uploaded 3D models
 
-│     ├── app.py          # Main backend script
+│     ├── app.py            # Main backend script
 
-│     ├── requirements.txt # Backend dependencies
+│     ├── requirements.txt   # Backend dependencies
 
-│── frontend/           # React frontend
+│── frontend/             # React frontend
 
-│     ├── src/            # React components
+│     ├── src/              # React components
 
-│     ├── public/         # Static files
+│     ├── public/           # Static files
 
-│     ├── package.json    # Frontend dependencies
+│     ├── package.json      # Frontend dependencies
 
-│── README.md           # Project instructions
+│── README.md             # Project instructions
 
 🎯 Usage
 
