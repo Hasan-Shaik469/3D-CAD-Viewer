@@ -16,7 +16,7 @@ Interactive controls (zoom, pan, rotate)
 Ensure you have the following installed:
 
 
-Node.js (for frontend)
+React.js (for frontend)
 
 Python (for backend)
 
@@ -44,11 +44,11 @@ Copy
 
 Edit
 
-cd backend  # Navigate to backend folder
+cd backend  ( # Navigate to backend folder )
 
-pip install -r requirements.txt      # Install dependencies
+pip install -r requirements.txt      ( # Install dependencies )
 
-python app.py      # Run the Flask server
+python app.py      ( # Run the Flask server )
 
 Backend will run on http://localhost:5000/.
 
@@ -61,11 +61,11 @@ Copy
 
 Edit
 
-cd frontend      # Navigate to frontend folder
+cd frontend      ( # Navigate to frontend folder )
 
-npm install      # Install dependencies
+npm install      ( # Install dependencies )
 
-npm start      # Run the React app
+npm start      ( # Run the React app )
 
 Frontend will be available at http://localhost:3000/.
 
@@ -109,5 +109,7 @@ Use the delete button to remove files
 🛠️ Technologies Used
 
 Frontend: React.js, Three.js, Axios
+
 Backend: Flask, Flask-CORS
+
 3D Rendering: react-three-fiber, drei
